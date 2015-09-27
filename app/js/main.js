@@ -1,7 +1,7 @@
 var React = require("react");
-var QuestionApp = require('./components/QuestionApp.js');
+var PhoneCatApp = require('./components/PhoneCatApp.js');
 
-var mainCom = React.render(
-    <QuestionApp />,
+var PhoneCat = React.render(
+    <PhoneCatApp />,
     document.getElementById('app')
 );
